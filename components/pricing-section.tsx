@@ -19,43 +19,43 @@ export function PricingSection() {
           <div className="space-y-2">
             <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary font-medium">Pricing</div>
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-primary">
-              Choose the plan that's right for you
+              Choose the plan that's right for your relationships
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              From casual collectors to serious dealers, we have options for everyone.
+              From casual conversations to deep relationship analysis, we have options for everyone.
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
           <Card className="flex flex-col border-primary/20 bg-card/80 backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="text-primary/90">Free</CardTitle>
               <div className="text-3xl font-bold">$0</div>
-              <CardDescription>Perfect for beginners</CardDescription>
+              <CardDescription>Perfect for trying Aura</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>10 identifications per month</span>
+                  <span>3 conversation analyses per month</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Basic item information</span>
+                  <span>Basic emotional insights</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>General time period identification</span>
+                  <span>5 story slides per analysis</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Ad-supported experience</span>
+                  <span>Watermarked exports</span>
                 </li>
               </ul>
             </CardContent>
             <CardFooter>
               <Button className="w-full border-primary/50 hover:bg-primary/10 hover:text-primary" variant="outline" asChild>
-                <Link href="https://apps.apple.com/us/app/antique-identifier-by-picture/id6736771469">
+                <Link href="https://apps.apple.com/app/aura-whatsapp-wrapped/id[APP_ID]">
                   Download Free
                 </Link>
               </Button>
@@ -65,36 +65,36 @@ export function PricingSection() {
             <div className="absolute top-0 right-0 bg-primary text-primary-foreground px-3 py-1 text-xs font-medium rounded-bl-lg">Popular</div>
             <CardHeader>
               <CardTitle className="text-primary/90">Premium</CardTitle>
-              <div className="text-3xl font-bold">$7.99<span className="text-sm font-normal">/month</span></div>
-              <CardDescription>For enthusiasts and collectors</CardDescription>
+              <div className="text-3xl font-bold">$4.99<span className="text-sm font-normal">/month</span></div>
+              <CardDescription>For relationship explorers</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Unlimited identifications</span>
+                  <span>Unlimited conversation analyses</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Detailed item information</span>
+                  <span>Advanced emotional insights</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Value estimation</span>
+                  <span>Unlimited story slides</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Historical context and provenance</span>
+                  <span>Custom story themes</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Ad-free experience</span>
+                  <span>HD exports without watermarks</span>
                 </li>
               </ul>
             </CardContent>
             <CardFooter>
               <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
-                <Link href="https://apps.apple.com/us/app/antique-identifier-by-picture/id6736771469">
+                <Link href="https://apps.apple.com/app/aura-whatsapp-wrapped/id[APP_ID]">
                   Get Premium
                 </Link>
               </Button>
@@ -103,8 +103,8 @@ export function PricingSection() {
           <Card className="flex flex-col border-primary/20 bg-card/80 backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="text-primary/90">Annual</CardTitle>
-              <div className="text-3xl font-bold">$59.99<span className="text-sm font-normal">/year</span></div>
-              <CardDescription>Save 37% with annual billing</CardDescription>
+              <div className="text-3xl font-bold">$39.99<span className="text-sm font-normal">/year</span></div>
+              <CardDescription>Save 33% with annual billing</CardDescription>
             </CardHeader>
             <CardContent className="flex-1">
               <ul className="space-y-2 text-sm">
@@ -114,15 +114,15 @@ export function PricingSection() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Priority identification</span>
+                  <span>Priority analysis processing</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Collection management tools</span>
+                  <span>Relationship timeline features</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
-                  <span>Export and sharing capabilities</span>
+                  <span>Multiple export formats</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-primary" />
@@ -132,7 +132,7 @@ export function PricingSection() {
             </CardContent>
             <CardFooter>
               <Button className="w-full border-primary/50 hover:bg-primary/10 hover:text-primary" variant="outline" asChild>
-                <Link href="https://apps.apple.com/us/app/antique-identifier-by-picture/id6736771469">
+                <Link href="https://apps.apple.com/app/aura-whatsapp-wrapped/id[APP_ID]">
                   Get Annual Plan
                 </Link>
               </Button>

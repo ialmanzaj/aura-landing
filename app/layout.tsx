@@ -6,8 +6,8 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Antique Identifier App',
-  description: 'Identify, catalog, and learn about antiques with AI-powered recognition',
+  title: 'Aura - Spotify Wrapped for WhatsApp Relationships',
+  description: 'Transform your private WhatsApp conversations into beautiful, emotional stories. Discover relationship insights, emotional patterns, and create shareable story slides.',
 };
 
 export default function RootLayout({
@@ -16,14 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="light">
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <ThemeProvider>
           {children}
         </ThemeProvider>
       </body>

@@ -17,15 +17,16 @@ export function AppStoreBadge({ className, size = "medium" }: AppStoreBadgeProps
   
   return (
     <Link 
-      href="https://apps.apple.com/us/app/antique-identifier-by-picture/id6736771469" 
+      href="https://apps.apple.com/app/aura-whatsapp-wrapped/id[APP_ID]" 
       className={`relative block ${className}`}
       style={{ width, height }}
     >
       <Image 
         src="/app-store-badge.svg" 
-        alt="Download on the App Store"
+        alt="Download Aura on the App Store"
         fill
         className="object-contain"
+        sizes={`${width}px`}
       />
     </Link>
   )

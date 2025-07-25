@@ -18,7 +18,7 @@ export function FAQSection() {
               Frequently asked questions
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Everything you need to know about antique identification.
+              Everything you need to know about Aura and WhatsApp conversation analysis.
             </p>
           </div>
         </div>
@@ -26,50 +26,50 @@ export function FAQSection() {
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left text-base font-medium">
-                How accurate is the antique identification?
+                How does Aura protect my privacy and keep my conversations secure?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                We uses advanced AI technology trained on millions of antique images to provide highly accurate identifications. For common antiques and well-known styles, the accuracy is typically 90%+. For rare or unusual items, we provide the closest matches and detailed information to help you narrow down the identification. Our system continuously improves as more users contribute to our database.
+                Your privacy is our top priority. All conversation analysis happens with end-to-end encryption, and your chat data is processed securely on our encrypted servers. We never store your actual messages - only the insights we generate. You control what gets saved, shared, or exported. You can delete your data at any time, and we never share personal information with third parties.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-left text-base font-medium">
-                Can this antique identifier app determine the value of my antiques?
+                How do I import my WhatsApp conversations into Aura?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Yes, we provides estimated value ranges based on recent auction data, market trends, and comparable sales. However, these are approximations and many factors can affect an item's actual value, including condition, provenance, rarity, and regional market variations. For high-value items, we always recommend consulting with a professional appraiser.
+                Aura works by analyzing WhatsApp chat exports. Simply export your 1:1 conversation from WhatsApp (without media to protect privacy), then securely upload it to Aura. The app guides you through the simple export process step-by-step. We support both iOS and Android WhatsApp exports.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-left text-base font-medium">
-                What types of antiques can the app identify?
+                What kind of emotional insights does Aura provide?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                Our identifier app can identify a wide range of antiques and collectibles including furniture, ceramics, glassware, jewelry, silverware, artwork, clocks, watches, coins, stamps, toys, and many other categories. Our database includes items from various periods and styles, from ancient artifacts to mid-century modern pieces.
+                Aura analyzes conversation patterns to reveal emotional insights like who texts more, your most-used words and emojis, late-night conversation streaks, periods of silence, emotional sentiment over time, conversation momentum, and relationship milestones. Think of it as "Spotify Wrapped" but for your most meaningful relationships.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger className="text-left text-base font-medium">
-                How do I take the best photo for identification?
+                Can I share my Aura story slides on social media?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                For best results, take photos in good natural lighting, against a plain background. Capture the entire item and include multiple angles if possible. For items with marks, signatures, or hallmarks, take close-up photos of these details as they can be crucial for accurate identification. Avoid shadows, glare, and blurry images.
+                Absolutely! Aura creates beautiful, Instagram-style story slides designed for sharing. Each slide is optimized for social media and includes just the right amount of intrigue to make people curious about getting their own Aura insights. You control exactly what gets shared - keep it private or go viral with your relationship story.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
               <AccordionTrigger className="text-left text-base font-medium">
-                Can I use this antique identifier app offline?
+                Does Aura work with group chats or only 1:1 conversations?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                The core identification feature requires an internet connection to access our AI and database. However, subscribers can save identified items to their collection for offline viewing.
+                Currently, Aura focuses exclusively on 1:1 private conversations to provide the most meaningful emotional insights about your closest relationships. Group chat analysis may be added in future updates, but our priority is delivering deep, personal insights about your most important connections.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
               <AccordionTrigger className="text-left text-base font-medium">
-                How is my data and privacy protected?
+                How accurate is the emotional analysis of my messages?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground">
-                We take your privacy seriously. Photos you upload are used only for identification purposes and to improve our AI system. You can choose whether to contribute your identified items to our database. All personal information is encrypted and never shared with third parties without your explicit consent. You can delete your account and data at any time.
+                Aura uses advanced AI trained on emotional communication patterns to analyze sentiment, relationship dynamics, and conversation patterns. While insights are based on message data and linguistic patterns, emotional analysis is interpretive by nature. We focus on trends and patterns rather than absolute judgments, giving you a data-driven perspective on your relationships.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
