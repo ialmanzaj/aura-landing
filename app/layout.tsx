@@ -6,7 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Aura - Spotify Wrapped for WhatsApp Relationships',
+  title: 'Aura - Wrapped for Relationships',
   description: 'Transform your private WhatsApp conversations into beautiful, emotional stories. Discover relationship insights, emotional patterns, and create shareable story slides.',
 };
 
