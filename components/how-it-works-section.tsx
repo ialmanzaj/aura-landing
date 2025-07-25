@@ -20,16 +20,16 @@ export function HowItWorksSection() {
           </div>
         </div>
         
-        <div className="mx-auto grid max-w-6xl gap-6 py-12 sm:gap-8 lg:grid-cols-3 lg:py-16">
-          <div className="flex flex-col items-center space-y-4 gradient-card p-6 sm:p-8 text-center group hover:shadow-xl smooth-transition sm:space-y-6">
-            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center group-hover:scale-110 smooth-transition">
+        <div className="mx-auto grid max-w-6xl gap-12 py-12 sm:gap-16 lg:grid-cols-3 lg:py-16">
+          <div className="flex flex-col items-center space-y-6 text-center">
+            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
               <Download className="h-8 w-8 text-white" />
             </div>
             <h3 className="headline text-gray-900">1. Export a WhatsApp chat</h3>
             <p className="body-medium text-gray-600 leading-relaxed">
               Simply export your 1:1 WhatsApp conversation from your phone — it takes just a few taps.
             </p>
-            <div className="rounded-2xl overflow-hidden gradient-card shadow-lg group-hover:shadow-xl smooth-transition max-w-[240px] sm:max-w-[280px]">
+            <div className="max-w-[240px] sm:max-w-[280px]">
               <Image
                 src="/taking-photo.png"
                 alt="Exporting WhatsApp conversations"
@@ -41,15 +41,15 @@ export function HowItWorksSection() {
             </div>
           </div>
           
-          <div className="flex flex-col items-center space-y-4 gradient-card p-6 sm:p-8 text-center group hover:shadow-xl smooth-transition sm:space-y-6">
-            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center group-hover:scale-110 smooth-transition">
+          <div className="flex flex-col items-center space-y-6 text-center">
+            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
               <Shield className="h-8 w-8 text-white" />
             </div>
             <h3 className="headline text-gray-900">2. Import it into aura</h3>
             <p className="body-medium text-gray-600 leading-relaxed">
               Upload your chat file to aura. Everything happens locally on your device — your data never leaves your phone.
             </p>
-            <div className="rounded-2xl overflow-hidden gradient-card shadow-lg group-hover:shadow-xl smooth-transition max-w-[240px] sm:max-w-[280px]">
+            <div className="max-w-[240px] sm:max-w-[280px]">
               <Image
                 src="/analyze.png"
                 alt="Analyzing chat data"
@@ -61,15 +61,15 @@ export function HowItWorksSection() {
             </div>
           </div>
           
-          <div className="flex flex-col items-center space-y-4 gradient-card p-6 sm:p-8 text-center group hover:shadow-xl smooth-transition sm:space-y-6">
-            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-pink-500 to-orange-500 flex items-center justify-center group-hover:scale-110 smooth-transition">
+          <div className="flex flex-col items-center space-y-6 text-center">
+            <div className="w-16 h-16 rounded-3xl bg-gradient-to-br from-pink-500 to-orange-500 flex items-center justify-center">
               <PartyPopper className="h-8 w-8 text-white" />
             </div>
             <h3 className="headline text-gray-900">3. Get Your Wrapped</h3>
             <p className="body-medium text-gray-600 leading-relaxed">
               Beautiful, emotional stories ready to share or keep private. Your relationship insights, visualized like never before.
             </p>
-            <div className="rounded-2xl overflow-hidden gradient-card shadow-lg group-hover:shadow-xl smooth-transition max-w-[240px] sm:max-w-[280px]">
+            <div className="max-w-[240px] sm:max-w-[280px]">
               <Image
                 src="/result.png"
                 alt="Your Wrapped results"
